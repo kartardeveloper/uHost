@@ -1,0 +1,36 @@
+@media screen and (max-width: 480px) {
+  .toggle-button {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .main-header {
+    height: 50px;
+  }
+
+  .main-header__brand {
+    height: 35px;
+  }
+
+  .toggle-button {
+    height: 35px;
+    width: 35px;
+  }
+
+  .mobile-nav .mobile-nav__items .mobile-nav__item {
+    margin: 1rem 0rem;
+    font-size: 1.1rem;
+  }
+
+  .mobile-nav__item--cta {
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+
+  .main-footer {
+    padding: 1rem;
+  }
+}

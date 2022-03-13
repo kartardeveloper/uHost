@@ -1,0 +1,223 @@
+.backdrop {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
+
+.modal {
+  background: white;
+  padding: 2rem;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.modal .modal__title {
+  font-size: 1.7rem;
+  color: black;
+  margin: 0;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.modal div {
+  text-align: center;
+}
+
+.modal .modal__buttons {
+  padding: 0.3rem 0.8rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.modal .modal__buttons a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal #modal__first-button {
+  background: green;
+}
+
+.modal #modal__first-button:hover {
+  background: #02c902;
+}
+
+.modal #modal__second-button {
+  background: #ee0000;
+  cursor: pointer;
+}
+
+.modal #modal__second-button:hover {
+  background: #ff0000;
+}
+
+#product-overview {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/freedom.jpg") top center/cover;
+  width: 100%;
+  height: 700px;
+  padding: 0.6rem;
+  position: relative;
+}
+
+#product-overview div h1 {
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Anton", sans-serif;
+  color: white;
+}
+
+#plans {
+  margin: 2rem 0rem;
+}
+
+#plans .section-title {
+  color: #2ddf5c;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#plans .plan-container {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+#plans .plan {
+  background: #d5ffdc;
+  width: 28%;
+  padding: 1rem;
+  text-align: center;
+  border: 2px solid #0e4f1f;
+  position: relative;
+  overflow: hidden;
+  height: 370px;
+  transition: all 0.4s ease;
+}
+
+@media (hover: hover) {
+  #plans .plan:hover {
+    transform: scale(1.05);
+  }
+}
+
+#plans .highlighted-plan {
+  background: #096822;
+  height: 400px;
+  color: white;
+  z-index: 2;
+}
+
+#plans .plan__highlighted-batch {
+  padding: 0.5rem;
+  background: #ff1b68;
+  width: 250px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-35deg) translate(-52px, -20px);
+}
+
+#plans .plan-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#plans .plan-list li {
+  padding: 0.25rem 0.5rem;
+}
+
+#plans .plan__button {
+  color: white;
+  background: #003600;
+  border: 2px solid white;
+  font: inherit;
+  font-weight: bold;
+  margin: 0.75rem 0rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+#plans .plan__button:hover,
+#plans .plan__button:active {
+  color: #003600;
+  background: white;
+  border: 2px solid #003600;
+}
+
+.key-features {
+  background: #ff1b68;
+  padding: 1rem;
+  color: white;
+  margin: 3rem 0rem;
+}
+
+.key-features .key-features__image {
+  padding: 1.25rem;
+}
+
+.key-features #key-features__title {
+  color: white;
+  margin: 0;
+  font-size: 1.75rem;
+  margin: 1.3rem 0rem;
+  text-align: center;
+}
+
+.key-features .key-features__list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.key-features .key-features__list li {
+  text-align: center;
+}
+
+.key-features .key-features__list li .key-features__image {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background: #d5ffdc;
+  margin: auto;
+}
+
+.key-features .key-features__list li .key-features__image img {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  object-fit: contain;
+}
+
+.key-features .key-features__list li p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}

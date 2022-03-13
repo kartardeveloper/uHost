@@ -1,0 +1,94 @@
+@media screen and (max-width: 1080px) {
+  .modal {
+    padding: 1rem;
+    width: 400px;
+  }
+
+  #product-overview {
+    height: 600px;
+    padding: 0;
+  }
+
+  #product-overview div h1 {
+    bottom: 2%;
+    left: 2%;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin: 0.7rem 0;
+  }
+
+  #plans {
+    margin: 1rem 0rem;
+  }
+
+  .plan-container {
+    width: 100% !important;
+  }
+
+  .plan {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .plan:hover {
+    transform: scale(1);
+  }
+
+  .key-features {
+    margin: 1rem 0rem;
+  }
+
+  #key-features__title {
+    font-size: 1.8rem;
+  }
+
+  .key-features__list li {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .plan-container {
+    flex-direction: column;
+    width: 90% !important;
+  }
+
+  #plans .plan {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 240px;
+  }
+
+  #product-overview {
+    padding: 0;
+  }
+
+  #product-overview div h1 {
+    font-size: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .plan-container {
+    width: 98%;
+  }
+
+  #key-features__title {
+    font-size: 1.5rem;
+  }
+
+  .key-features__list li {
+    margin: 0.5rem 5rem;
+  }
+}

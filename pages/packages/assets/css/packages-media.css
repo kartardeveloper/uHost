@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+  main {
+    width: 95%;
+    margin: 1.5rem auto;
+    margin-top: 5rem;
+  }
+
+  .package {
+    background: #caf2d1ec;
+    width: 100%;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    height: auto;
+  }
+
+  .package:hover,
+  .package:active {
+    border-color: #096822;
+    transform: translateY(0px);
+  }
+
+  #free {
+    margin-bottom: 2.5rem;
+    text-align: left;
+  }
+}

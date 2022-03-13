@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>uHost</title>
+    <link rel="shortcut icon" href="./shared/assets/images/uhost-icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media.css" />
+    <link rel="stylesheet" href="./shared/assets/css/shared.css" />
+    <link rel="stylesheet" href="./shared/assets/css/shared-media.css" />
+    <script defer src="./js/index.js"></script>
+    <script defer src="./shared/js/shared.js"></script>
+  </head>
+
+  <body>
+    <div class="backdrop">
+      <div class="modal">
+        <h2 class="modal__title">Do You Want To Continue?</h2>
+        <div>
+          <button class="modal__buttons" id="modal__first-button">
+            <a href="./pages/start-hosting/start-hosting.html">YES</a>
+          </button>
+          <button class="modal__buttons" id="modal__second-button">NO</button>
+        </div>
+      </div>
+    </div>
+    <header class="main-header">
+      <a href="./index.html" class="main-header__brand">
+        <img src="./shared/assets/images/uhost-icon.png" alt="Logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="./pages/packages/packages.html">Packages</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="./pages/customers/customers.html">Customers</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="./pages/start-hosting/start-hosting.html" class="active"
+              >Start Hosting</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="toggle-button" id="hamburger">
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+        <span class="toggle-button__bar"></span>
+      </div>
+    </header>
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+          <a href="./pages/packages/packages.html">Packages</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="./pages/customers/customers.html">Customers</a>
+        </li>
+        <li class="mobile-nav__item mobile-nav__item--cta">
+          <a href="./pages/start-hosting/start-hosting.html" id="mobile-nav__cta"
+            >Start Hosting</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section id="product-overview">
+        <div>
+          <h1>Get the freedom you deserve.</h1>
+        </div>
+      </section>
+      <section id="plans">
+        <h1 class="section-title">Choose Your Plan</h1>
+        <div class="plan-container">
+          <article class="plan">
+            <h1 class="plan-title">FREE</h1>
+            <h2 class="plan-price">$0/month</h2>
+            <h3 class="plan-info">For hobby projects or small teams.</h3>
+            <ul class="plan-list">
+              <li>1 Workspace</li>
+              <li>Unlimited Traffic</li>
+              <li>10GB Storage</li>
+              <li>Basic Support</li>
+            </ul>
+            <div>
+              <button class="plan__button">CHOOSE PLAN</button>
+            </div>
+          </article>
+          <article class="plan highlighted-plan">
+            <h1 class="plan__highlighted-batch">RECOMMENDED</h1>
+            <h1 class="plan-title">PLUS</h1>
+            <h2 class="plan-price">$29/month</h2>
+            <h3 class="plan-info">For ambitious projects.</h3>
+            <ul class="plan-list">
+              <li>5 Workspaces</li>
+              <li>Unlimited Traffic</li>
+              <li>100GB Storage</li>
+              <li>Plus Support</li>
+            </ul>
+            <div>
+              <button class="plan__button">CHOOSE PLAN</button>
+            </div>
+          </article>
+          <article class="plan">
+            <h1 class="plan-title">PREMIUM</h1>
+            <h2 class="plan-price">$99/month</h2>
+            <h3 class="plan-info">Your enterprise solution.</h3>
+            <ul class="plan-list">
+              <li>10 Workspaces</li>
+              <li>Unlimited Traffic</li>
+              <li>Unlimited Storage</li>
+              <li>Priority Support</li>
+            </ul>
+            <div>
+              <button class="plan__button">CHOOSE PLAN</button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="key-features">
+        <h1 class="section-title" id="key-features__title">
+          Many Good Reasons to Stick Around
+        </h1>
+        <ul class="key-features__list">
+          <li>
+            <figure class="key-features__image">
+              <img src="./assets/images/customer.png" alt="Customer Png" />
+            </figure>
+            <p>3,857,000 Trusting Customers</p>
+          </li>
+          <li>
+            <figure class="key-features__image">
+              <img src="./assets/images/guarantee.png" alt="Guarantee Png" />
+            </figure>
+            <p>99.999% Uptime Guarantee</p>
+          </li>
+          <li>
+            <figure class="key-features__image">
+              <img src="./assets/images/cdn.png" alt="CDN Png" />
+            </figure>
+            <p>Lightning Fast CDN</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <nav>
+        <ul class="main-footer__list">
+          <li>
+            <a href="./index.html">Support</a>
+          </li>
+          <li>
+            <a href="./index.html">Terms of Use</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
